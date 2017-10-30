@@ -20,6 +20,11 @@ $(document).ready(function(){
            result.attr('type', 'text');
         }
     });
+   reload_number.change(function() {
+        if(!$(this).is(":checked")) {
+            add_number_for_buttons();
+        }
+    });
     $(".number").on('click', function(){
         var $this = $(this);
         addSymbol($this);
