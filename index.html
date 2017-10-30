@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Digital Keyboard</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    </head>
+<body>
+<section class="wrap">
+    <div class="settings">
+        <div class="settings-block">
+            <input id="hide_password" type="checkbox">
+            <label for="hide_password">Скривати символи</label>
+        </div>
+        <div class="settings-block">
+            <input id="reload_number" type="checkbox">
+            <label  for="reload_number">Перемішувати цифри після вводу кожного символу</label>
+        </div>
+
+    </div>
+    <div class="content">
+        <input type="text" class="result" value="" readonly>
+        <div class="keyboard-wrap">
+            <div class="keyboard-numbers">
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="number"></button>
+                <button value="" class="n-number-left"></button>
+                <button value="" class="n-number-right"></button>
+            </div>
+            <div class="keyboard-buttons">
+                <button class="action-button" id="cancel">cancel</button>
+                <button class="action-button" id="clear">clear</button>
+                <button class="action-button" id="enter">enter</button>
+                <button class="action-button"></button>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>

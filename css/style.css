@@ -1,0 +1,108 @@
+.content{
+	width: 400px;
+	height: auto;
+	margin: 10px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 1px solid black;
+	background: #a9a9a9;
+}
+.result{
+	width: 100%;
+	height: 60px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	font-size: 40px;
+	line-height: 70px;
+	color: #000;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.keyboard-wrap{
+	margin: 20px 0 0 0;
+	background: #d2c8c8;
+	width: 100%;
+	border: 1px solid black;
+	font-size: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.keyboard-numbers, .keyboard-buttons{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+.keyboard-numbers{
+	width: 65%;
+    position: relative;
+    text-align: center;
+}
+.keyboard-buttons{
+	width: 25%;
+	margin-left: 10%;
+}
+.number{
+	display: inline-block;
+	width: 31.33%;
+	margin: 3px 1%;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.n-number-left, .n-number-right{
+    position: absolute;
+    bottom: 0;
+    width: 31.33%;
+    margin: 3px 1%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    border: 1px solid black;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+.n-number-left{
+    left: 0;
+}
+.n-number-right{
+    right: 0;
+}
+.action-button{
+	width: 98%;
+	height: 50px;
+    margin: 3px 1%;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+#cancel{
+    background: red;
+}
+#clear{
+    background: yellow;
+}
+#enter{
+    background: green;
+}
+.settings{
+    width: 400px;
+    margin: 100px auto 0 auto;
+
+}
+.settings .settings-block{
+    display: block;
+    font-size: 20px;
+}
+.settings .settings-block input{
+    width: 16px;
+    height: 16px;
+}
